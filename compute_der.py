@@ -1,5 +1,5 @@
 
-from tashkeel_tokenizer import TashkeelTokenizer
+from catt.tashkeel_tokenizer import TashkeelTokenizer
 from tqdm import tqdm
 import sys
 import xer
