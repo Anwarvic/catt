@@ -1,6 +1,6 @@
 
 import torch
-from ed_pl import TashkeelModel
+from catt.ed_pl import TashkeelModel
 from catt.tashkeel_tokenizer import TashkeelTokenizer
 from catt.utils import remove_non_arabic
 
