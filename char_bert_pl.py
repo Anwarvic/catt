@@ -1,4 +1,4 @@
-from transformer import Encoder, make_pad_mask
+from catt.transformer import Encoder, make_pad_mask
 import torch.nn as nn
 import torch
 import random
