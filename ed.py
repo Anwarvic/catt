@@ -1,6 +1,6 @@
 
 import torch.nn as nn
-from transformer import *
+from catt.transformer import *
 
 class Transformer(nn.Module):
 
