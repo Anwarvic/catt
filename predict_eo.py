@@ -1,8 +1,8 @@
 
 import torch
-from eo_pl import TashkeelModel
-from tashkeel_tokenizer import TashkeelTokenizer
-from utils import remove_non_arabic
+from catt.eo_pl import TashkeelModel
+from catt.tashkeel_tokenizer import TashkeelTokenizer
+from catt.utils import remove_non_arabic
 
 tokenizer = TashkeelTokenizer()
 ckpt_path = 'models/best_eo_mlm_ns_epoch_193.pt'
