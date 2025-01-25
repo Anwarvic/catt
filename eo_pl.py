@@ -4,7 +4,7 @@ import torch.nn as nn
 import pytorch_lightning as pl
 from torch.nn import functional as F
 from torch.utils.data import DataLoader
-from eo import Transformer
+from catt.eo import Transformer
 from tqdm import tqdm
 import math
 import torch
