@@ -1,5 +1,5 @@
 import torch.nn as nn
-from transformer import *
+from catt.transformer import *
 
 class Transformer(nn.Module):
     def __init__(self, src_pad_idx, trg_pad_idx, enc_voc_size, dec_voc_size, d_model, n_head, max_len,
