@@ -1,9 +1,9 @@
 
 
 import re
-import bw2ar
+import catt.bw2ar
 import torch
-import xer
+import catt.xer
 
 # Diacritics
 FATHATAN = u'\u064b'
